@@ -46,6 +46,10 @@ a, a:hover, a:focus, .btn:focus {
     text-decoration: none;
     outline: none;
 }
+h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #252525;
+}
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -198,7 +202,7 @@ main > section {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.animated-header
 
 /**
 /*	Preloader
@@ -357,13 +361,14 @@ h1.navbar-brand {
 .slide-caption .caption-content {
     vertical-align: middle;
     display: table-cell;
+    margin-bottom: 30px;
 }
 
 .caption-content h2 {
     color: #fff;
     font-size: 52px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-bottom: 75px;
     text-transform: uppercase;
 }
 
@@ -513,6 +518,7 @@ h1.navbar-brand {
 
 #about {
     background-color: #009EE3;
+
     color: #fff;
 }
 
