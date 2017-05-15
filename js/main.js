@@ -184,7 +184,7 @@ function init() {
 	    var myLatLng = new google.maps.LatLng(32.7642155,-117.1981007);
 
 	    var mapOptions = {
-	        zoom: 15,
+	        zoom: 10,
 	        center: myLatLng,
 	        disableDefaultUI: true,
 	        scrollwheel: true,
@@ -253,7 +253,7 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.marker({
-        position: new google.maps.LatLng(40.298105, -74.924576),
+        position: new google.maps.LatLng(32.7642155,-117.1981007),
         map: map,
 		icon: 'img/icons/map-marker.png',
     });
